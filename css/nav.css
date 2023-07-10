@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding-top: 68px; 
+    margin: 0px 200px;
 }
 .developer{
     /* width: 15%; */
@@ -46,4 +47,25 @@ nav ul li a .btn{
     width: 150px;
     height: 64px;
     flex-shrink: 0;
+}
+.banner{
+    padding: 30px 0px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.download-btn{
+    width: 200px;
+height: 64px;
+}
+.contact-btn{
+width: 160px;
+height: 64px;
+color: #FD6E0A;
+border: 2px solid #FD6E0A;
+background-color: transparent;
+}
+.banner img{
+    background-image: url("../images/header_bg.png");
+    width: 584px;
+height: 676px;
 }
