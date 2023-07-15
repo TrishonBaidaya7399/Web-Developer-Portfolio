@@ -241,3 +241,82 @@ textarea {
     border: 0;
     width: 100%;
 }
+
+/* Responsive styles */
+/* mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .header{
+        background-image: none;
+    }
+    .banner .profile-pic {
+        width: 100%;
+    }
+    .banner{
+        padding: 20px;
+    }
+    .hire-me{
+        padding: 5px;
+        width: 100px;
+    }
+    .download{
+        margin-bottom: 20px;
+    }
+    nav > ul{
+        gap: 15px;
+    }
+  
+    .skills-container, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    #what-i-do-description {
+        padding: 20px 20px;
+    }
+    .a-summary {
+       margin-bottom: 50px;
+       margin-top: -50px;
+    }
+    .resume-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .btn-primary {
+        margin-right: -15px;
+    }
+    footer{
+        margin-top: 100px;
+        padding: 20px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .contact input[type="email"], .contact input[type="text"],textarea {
+        width: 80%;
+    }
+    .about {
+        padding: 20px;
+        margin-bottom: -70px;
+    }
+    .about-info-container {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        gap: 10px;
+        justify-content: space-between;
+    }
+   
+}
+
+/* tab devices */
+@media screen and (min-width: 576px) and (max-width: 960px){
+  .footer-column{
+    padding: 30px;
+  }
+  .btn-primary{
+    margin-bottom: 20px;
+  }
+}
